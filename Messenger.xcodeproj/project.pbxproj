@@ -21,6 +21,7 @@
 		2F770E3D2A646CB00023BFC1 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F770E3C2A646CB00023BFC1 /* NewConversationViewController.swift */; };
 		2F770E3F2A646CC90023BFC1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F770E3E2A646CC90023BFC1 /* ProfileViewController.swift */; };
 		2F770E422A64740B0023BFC1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F770E412A64740B0023BFC1 /* Extensions.swift */; };
+		2F876D442A72D8B1003DB789 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F876D432A72D8B1003DB789 /* DatabaseManager.swift */; };
 		2F90C2D22A69DB4F006064F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F90C2D12A69DB4F006064F1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		2F770E3C2A646CB00023BFC1 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		2F770E3E2A646CC90023BFC1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2F770E412A64740B0023BFC1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2F876D432A72D8B1003DB789 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		2F90C2D12A69DB4F006064F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E8258EC9C3F5CDA0339C432B /* Pods_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 				2F770E1A2A644EDC0023BFC1 /* AppDelegate.swift */,
 				2F770E1C2A644EDC0023BFC1 /* SceneDelegate.swift */,
 				2F770E412A64740B0023BFC1 /* Extensions.swift */,
+				2F876D432A72D8B1003DB789 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F770E352A646BF40023BFC1 /* LoginViewController.swift in Sources */,
+				2F876D442A72D8B1003DB789 /* DatabaseManager.swift in Sources */,
 				2F770E372A646C100023BFC1 /* RegisterViewController.swift in Sources */,
 				2F770E3D2A646CB00023BFC1 /* NewConversationViewController.swift in Sources */,
 				2F770E1F2A644EDC0023BFC1 /* ConversationsViewController.swift in Sources */,
